@@ -5,7 +5,7 @@ export default function NavBar() {
 
     return(
         <>
-            <div className="navbar bg-transparent backdrop-blur-sm top-0 fixed z-10">
+            <div className="navbar bg-transparent backdrop-blur-sm top-0 fixed z-10" id="navbar-prueba">
                 <div className="navbar-start">
                     <div className="dropdown z-100">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">

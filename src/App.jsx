@@ -3,9 +3,11 @@ import NavBar from './components/NavBar';
 import ScrollReveal from 'scrollreveal';
 import SectionOne from './components/SectionOne';
 import { useEffect } from 'react';
+import Proyectos from './components/Proyectos';
 
 function App() {
-  
+
+  //Inicianializar ScrollReveal
   useEffect(() => {
     // Configurar ScrollReveal
     const sr = ScrollReveal({
@@ -28,7 +30,7 @@ function App() {
     });
     
     sr.reveal('#scroll-title', { 
-      duration: 1500,
+      duration: 1400,
       origin: 'top',
       distance: '100px'
     });
@@ -55,8 +57,20 @@ function App() {
       duration: 2000,
       origin: 'right',
       distance: '100px',
-      reset: false
     });
+
+    sr.reveal('#image-graduation', {
+      duration: 2000,
+      origin: 'right',
+      distance: '100px',
+    })
+    
+    sr.reveal('#navbar-prueba', {
+      duration: 2000,
+      origin: 'top',
+      distance: '50px',
+    })
+
 
     // Cleanup function
     return () => sr.destroy();
@@ -65,9 +79,10 @@ function App() {
   return (
     <>
       <NavBar />
-      <main className='px-5 lg:px-10'>
+      <main className='px-5 lg:px-10 overflow-hidden'>
         <SectionOne />
         <Estudios />
+        <Proyectos />
 
       </main>
     </>

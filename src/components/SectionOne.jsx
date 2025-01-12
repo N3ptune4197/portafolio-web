@@ -27,7 +27,7 @@ export default function SectionOne() {
 
     return(
         <>
-            <div className="flex flex-col md:flex-row mx-auto w-full pt-28 md:pt-20 lg:pt-0 lg:w-[1210px] bg-[rgba(33, 33, 39, 0.7)] lg:h-screen lg:items-center gap-16 lg:gap-0" id="inicio">
+            <div className="flex flex-col md:flex-row mx-auto w-full md:pt-20 lg:pt-36 lg:w-[1210px] bg-[rgba(33, 33, 39, 0.7)] lg:h-[98vh] lg:items-center gap-16 lg:gap-0" id="inicio">
                 <div className="lg:w-8/12 lg:pr-8 my-auto">
                     <p className="inline-flex text-sm lg:text-2xl font-semibold text-gray-400 font-inter" id="saludo-inicio">Hola<Icon icon="fluent-emoji:waving-hand"/></p>
                     <h2 className="text-[20px] lg:text-[52px] font-semibold flex lg:-mt-3 mb-3 lg:mb-4 font-inter" id="presentacion">Soy Carlos y soy <p className="font-semibold ml-2 lg:ml-4 bg-gradient-to-tl from-slate-800 via-violet-500 to-zinc-400 bg-clip-text text-transparent"><span ref={el} className="" /></p></h2>
