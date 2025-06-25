@@ -29,7 +29,6 @@ export default function NavBar() {
                         <li><a href="#inicio"><Icon icon="tabler:home" />Inicio</a></li>
                         <li><a href="#estudios"><Icon icon="tabler:lamp-2" />Estudios</a></li>
                         <li><a href="#proyectos"><Icon icon="eos-icons:project-outlined" />Proyectos</a></li>
-                        <li><a href="#contacto"><Icon icon="hugeicons:job-share" />Experiencia Laboral</a></li>
                         <li><a href="#contacto"><Icon icon="hugeicons:contact-01" />Contacto</a></li>
                     </ul>
                     </div>
@@ -41,12 +40,11 @@ export default function NavBar() {
                         <li><a href="#inicio"><Icon icon="tabler:home" />Inicio</a></li>
                         <li><a href="#estudios"><Icon icon="tabler:lamp-2" />Estudios</a></li>
                         <li><a href="#proyectos"><Icon icon="eos-icons:project-outlined" />Proyectos</a></li>
-                        <li><a href="#experiencia-laboral"><Icon icon="hugeicons:job-share" />Experiencia Laboral</a></li>
                         <li><a href="#contacto"><Icon icon="hugeicons:contact-01" />Contacto</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-ghost">
+                    <a className="btn btn-ghost" href="https://wa.me/+51932920120" target="_blank">
                         <Icon icon="ic:baseline-whatsapp" className="text-2xl" />
                         
                     </a>

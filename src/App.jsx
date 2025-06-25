@@ -69,7 +69,19 @@ function App() {
       duration: 2000,
       origin: 'top',
       distance: '50px',
+    }) 
+
+    sr.reveal('.card-project', {
+      duration: 1000,
+      origin: 'top',
+      distance: '50px',
     })
+    
+    
+
+
+
+
 
 
     // Cleanup function
@@ -78,9 +90,11 @@ function App() {
 
   return (
     <>
+
       <NavBar />
       <main className='px-5 lg:px-10 overflow-hidden'>
         <SectionOne />
+        <h1>Hola</h1>
         <Estudios />
         <Proyectos />
 
@@ -89,4 +103,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
