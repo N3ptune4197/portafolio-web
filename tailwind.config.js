@@ -10,6 +10,7 @@ export default {
       fontFamily: {
 
         "inter": ['"inter"', 'serif'],
+        "montserrat": ['"Montserrat"', 'serif'],
       }
     },
   },

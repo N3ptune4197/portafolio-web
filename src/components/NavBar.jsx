@@ -5,7 +5,7 @@ export default function NavBar() {
 
     return(
         <>
-            <div className="navbar bg-transparent backdrop-blur-sm top-0 fixed z-10" id="navbar-prueba">
+            <div className="navbar bg-transparent backdrop-blur-md top-0 fixed z-10" id="navbar-prueba">
                 <div className="navbar-start">
                     <div className="dropdown z-100">
                         
@@ -30,10 +30,9 @@ export default function NavBar() {
                         <li><a href="#inicio"><Icon icon="tabler:home" />Inicio</a></li>
                         <li><a href="#estudios"><Icon icon="tabler:lamp-2" />Estudios</a></li>
                         <li><a href="#proyectos"><Icon icon="eos-icons:project-outlined" />Proyectos</a></li>
-                        <li><a href="#contacto"><Icon icon="hugeicons:contact-01" />Contacto</a></li>
                     </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl ">Carlos Chero Mendoza</a>
+                    <a className="btn btn-ghost text-lg ">Carlos Chero Mendoza</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -41,7 +40,6 @@ export default function NavBar() {
                         <li><a href="#inicio"><Icon icon="tabler:home" />Inicio</a></li>
                         <li><a href="#estudios"><Icon icon="tabler:lamp-2" />Estudios</a></li>
                         <li><a href="#proyectos"><Icon icon="eos-icons:project-outlined" />Proyectos</a></li>
-                        <li><a href="#contacto"><Icon icon="hugeicons:contact-01" />Contacto</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

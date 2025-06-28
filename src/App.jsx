@@ -4,6 +4,7 @@ import ScrollReveal from 'scrollreveal';
 import SectionOne from './components/SectionOne';
 import { useEffect } from 'react';
 import Proyectos from './components/Proyectos';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -78,6 +79,11 @@ function App() {
     })
     
     
+    sr.reveal('.projects-ch', {
+      duration: 1000,
+      origin: 'bottom',
+      distance: '50px',
+    })
 
 
 
@@ -96,8 +102,8 @@ function App() {
         <SectionOne />
         <Estudios />
         <Proyectos />
-
       </main>
+      <Footer />
     </>
   )
 }

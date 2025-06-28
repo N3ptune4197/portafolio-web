@@ -32,10 +32,12 @@ export default function SectionOne() {
                     <p className="inline-flex text-sm lg:text-2xl font-semibold text-gray-400 font-inter" id="saludo-inicio">Hola<Icon icon="fluent-emoji:waving-hand"/></p>
                     <h2 className="text-[25px] lg:text-[48px] font-semibold flex lg:-mt-3 mb-3 lg:mb-4 font-inter" id="presentacion">Soy Carlos y soy <p className="font-semibold ml-2 lg:ml-4 bg-gradient-to-tl from-slate-800 via-violet-500 to-zinc-400 bg-clip-text text-transparent"><span ref={el} className="" /></p></h2>
                     <p className="mb-4 text-xs lg:text-lg lg:pr-14 parrafo-inicio text-gray-500">Desarrollador web con pasión por crear soluciones digitales efectivas. Me gusta transformar ideas en aplicaciones que realmente importen y generen valor.</p>
+
+
                     <div className="w-full join gap-3 parrafo-inicio" id="">
                         <a href="https://www.facebook.com/FabianCheroMendoza/" target="_blank" className="text-2xl animate__heartBeat animate__animated animate__delay-2s"><Icon icon="ic:baseline-facebook" className="text-2xl" /></a>
                         <a href="https://www.instagram.com/carlos.mendozq14/" target="_blank" className="text-2xl animate__heartBeat animate__animated animate__delay-3s"><Icon icon="mdi:instagram" className="text-2xl" /></a>
-                        <a href="/" target="_blank" className="text-2xl animate__heartBeat animate__animated animate__delay-2s"><Icon icon="mdi:linkedin" className="text-2xl" /></a>
+                        <a href="https://www.linkedin.com/in/fabian-chero-mendoza-52306a269/" target="_blank" className="text-2xl animate__heartBeat animate__animated animate__delay-2s"><Icon icon="mdi:linkedin" className="text-2xl" /></a>
                         <a href="https://github.com/N3ptune4197" target="_blank" className="text-2xl animate__heartBeat animate__animated animate__delay-3s"><Icon icon="mdi:github" className="text-2xl" /></a>
                     </div>
                 </div>
