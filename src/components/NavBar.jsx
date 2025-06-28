@@ -8,6 +8,7 @@ export default function NavBar() {
             <div className="navbar bg-transparent backdrop-blur-sm top-0 fixed z-10" id="navbar-prueba">
                 <div className="navbar-start">
                     <div className="dropdown z-100">
+                        
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +33,7 @@ export default function NavBar() {
                         <li><a href="#contacto"><Icon icon="hugeicons:contact-01" />Contacto</a></li>
                     </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl ">Carlos Chero Mendoza</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

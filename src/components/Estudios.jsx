@@ -8,7 +8,7 @@ export default function Estudios() {
 
     return (
         <>
-            <article className="flex flex-col pt-16 overflow-hidden lg:overflow-visible lg:w-[1210px] mx-auto" id="estudios">
+            <article className="flex flex-col pt-16 overflow-hidden lg:overflow-visible max-w-[1250px] mx-auto" id="estudios">
                 <h2 className="text-3xl font-bold text-center mb-10 md:mb-16 bg-gradient-to-r from-orange-500 via-indigo-500 to-green-500 text-transparent bg-clip-text" id="scroll-title" >Estudios </h2>
 
                 <div className="flex flex-col md:flex-row items-center">

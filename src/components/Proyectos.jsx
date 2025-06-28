@@ -2,23 +2,25 @@ import { Icon } from "@iconify/react";
 import Ecoconomia from "./../assets/ecoconomia.jpeg";
 import SimpleCoffe from './../assets/SimpleCoffe.jpeg';
 import SimpleHomepage from './../assets/SimpleHomepage.jpeg';
+import SendCrypt from './../assets/sendcrypt.jpeg';
 
 
 export default function Proyectos() {
 
     const proyectos = [
         {nombre: "Ecoconomía", descripcion: "Sitio de aprendizaje de Economía", link: "https://nep-ecoconomia.netlify.app/", image: Ecoconomia },
-        {nombre: "Simple Coffee Listing", descripcion: "Descripción del proyecto 1", link: "https://nep-simple-coffee-listing.netlify.app/", image:SimpleCoffe },
-        {nombre: "Simple Homepage", descripcion: "Descripción del proyecto 1", link: "https://nep-news-simple-homepage.netlify.app/", image: SimpleHomepage },
+        {nombre: "Simple Coffee Listing", descripcion: "Coffe List Homepage", link: "https://nep-simple-coffee-listing.netlify.app/", image:SimpleCoffe },
+        {nombre: "Simple Homepage", descripcion: "Homepage Challenge", link: "https://nep-news-simple-homepage.netlify.app/", image: SimpleHomepage },
+        {nombre: "Crypto Page", descripcion: "Homepage Crypto", link: "https://nep-sendcrypt.netlify.app/", image: SendCrypt },
 
     ]
 
     return(
         <>
-            <article className="flex flex-col pt-20 overflow-hidden lg:overflow-visible lg:w-[1210px] mx-auto" id="proyectos">
+            <article className="flex flex-col pt-20 overflow-hidden mb-10 lg:overflow-visible max-w-[1250px] mx-auto" id="proyectos">
                 <h2 className="text-3xl font-bold text-center mb-10 md:mb-16 bg-gradient-to-r from-orange-500 via-indigo-500 to-green-500 text-transparent bg-clip-text" id="scroll-title" >Proyectos</h2>
 
-                <div className="flex flex-col flex-wrap gap-x-7 gap-y-5 md:flex-row items-center justify-center ">
+                <div className="flex flex-col flex-wrap gap-x-8 gap-y-5 md:flex-row items-center justify-center ">
                     
                     {
                         proyectos.map((proyecto, index) => (

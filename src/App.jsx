@@ -90,11 +90,10 @@ function App() {
 
   return (
     <>
+        <NavBar />
 
-      <NavBar />
-      <main className='px-5 lg:px-10 overflow-hidden'>
+      <main className='px-4 md:px-7 max-w-[1250px] mx-auto lg:px-10 overflow-hidden'>
         <SectionOne />
-        <h1>Hola</h1>
         <Estudios />
         <Proyectos />
 
